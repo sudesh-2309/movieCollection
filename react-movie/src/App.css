@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eeeeee;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+}
+
+header h1 {
+  color: #222;
+}
+
+header p {
+  color: #666;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto;
+}
+
+.movie-card {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px #ccc;
+}
+
+.movie-card h2 {
+  color: #333;
+}
+
+.movie-card p {
+  color: #777;
+}
+
+.movie-card h3 {
+  color: #e69500;
+}
+
+footer {
+  margin-top: 40px;
+  color: #666;
+}
